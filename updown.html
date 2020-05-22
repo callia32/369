@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'/>
+		<title>up down game</title>
+        <style>
+            body{
+                text-align:center;
+                margin-top:100px;
+            }
+            button{
+                background-color:white;
+                padding: 2px 15px;
+            }
+            .title{
+            text-align: center;
+            }
+            #life{
+                font-size:medium;
+            }
+            #lifeCnt{
+                font-size: larger; font-weight:bold;
+            }
+        </style>
+	</head>
+	<body>
+        <img src="https://cdn2.iconfinder.com/data/icons/gaming-outline/32/arrow_keyboard_up_down_left_right_game_console-512.png" width="20%">
+        <div class="title">
+            <h1> Up Down game</h1>
+            <p id = "life">LIFE: <span id="lifecnt">3</span></p>
+        </div>    
+        <form>
+            <input id="input" type="text" maxlength="4">
+            <button id="formBtn">try!</button>
+        </form>
+        <div id="result"></div>
+		<script src='updown.js'></script>
+	</body>
+</html>
